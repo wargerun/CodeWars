@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace CodeWars.Test.Tasks
+namespace CodeWars.Test.Task01
 {
     public static class Persist
     {

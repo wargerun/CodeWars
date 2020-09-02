@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace CodeWars.Test.Tasks
+namespace CodeWars.Test.Task06
 {
     public static class SumDigPower
     {

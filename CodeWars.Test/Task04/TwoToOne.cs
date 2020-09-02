@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace CodeWars.Test.Tasks
+namespace CodeWars.Test.Task04
 {
     public static class TwoToOne
     {
@@ -9,7 +9,7 @@ namespace CodeWars.Test.Tasks
         {
             // my code                          
             List<string> res = (s1 + s2).Distinct().Select(d => d.ToString()).ToList();
-            res.Sort();                                                                
+            res.Sort();
             return string.Join("", res);
         }
     }

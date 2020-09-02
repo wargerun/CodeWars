@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace CodeWars.Test.Tasks
+namespace CodeWars.Test.Task10
 {
     /// <summary>
     /// Jamie is a programmer, and James' girlfriend. 

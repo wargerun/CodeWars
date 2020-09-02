@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace CodeWars.Test.Tasks
+namespace CodeWars.Test.Task08
 {
     /// <summary>
     /// Write an algorithm that will identify valid IPv4 addresses in dot-decimal format.

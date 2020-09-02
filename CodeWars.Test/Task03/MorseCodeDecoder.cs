@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CodeWars.Test.Tasks
+namespace CodeWars.Test.Task03
 {
     public static class MorseCodeDecoder
     {

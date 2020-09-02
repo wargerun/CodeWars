@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace CodeWars.Test.Tasks
+namespace CodeWars.Test.Task07
 {
     /// <summary>
     /// Roman Numerals Decoder  
@@ -31,7 +31,7 @@ C          100
 D          500
 M          1,000
 
-             */     
+             */
 
         private static Dictionary<char, int> romanTable = new Dictionary<char, int>()
         {
@@ -61,7 +61,7 @@ M          1,000
                     int next = romanTable[roman[i + 1]];
 
                     summary = current < next ? summary -= current : summary += current;
-                }                   
+                }
             }
 
             return summary;

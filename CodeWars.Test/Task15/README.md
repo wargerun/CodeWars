@@ -8,7 +8,7 @@ The class is designed to take in an array of values and an integer indicating ho
 
 The following are some examples of how this class is used:
 
-```
+```c#
 var helper = new PaginationHelper<char>(new List<char>{'a', 'b', 'c', 'd', 'e', 'f'}, 4);
 helper.PageCount(); //should == 2
 helper.ItemCount(); //should == 6
